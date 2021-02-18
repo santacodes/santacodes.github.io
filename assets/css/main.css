@@ -2003,7 +2003,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #999;
+		color: rgb(185, 160, 160);
 		margin: 0 0 1.5em 0;
 		position: relative;
 	}
@@ -2033,7 +2033,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: rgba(144, 144, 144, 0.5);
+			background: rgba(228, 142, 142, 0.5);
 			content: '';
 			display: inline-block;
 			height: 1px;
