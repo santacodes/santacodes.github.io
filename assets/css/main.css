@@ -3510,3 +3510,16 @@ input, select, textarea {
 			}
 
 	}
+	
+/* Brightness-zoom Container */
+.img-hover-zoom--brightness img {
+	transition: transform 1.5s, filter 1s ease-in-out;
+	transform-origin: center center;
+	filter: brightness(50%);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--brightness:hover img {
+	filter: brightness(100%);
+	transform: scale(1.1);
+  }
