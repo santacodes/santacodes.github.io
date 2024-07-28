@@ -1,0 +1,119 @@
+baseURL      = "localhost"
+title        = "santacodes"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Santacodes' Blog Site"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = true
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+  [[params.social]]
+  name = "github"
+  url  = "https://github.com/santacodes"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:santhoshsundaram9650@gmail.com"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/santhosh-sundaram-897324204/"
+
+[params.author]
+  name = "santacodes"
+
+[params.footer]
+  trademark = 2024
+  rss = false 
+  copyright = true
+  author = true
+
+  topText = []
+  bottomText = [
+    "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
+  ]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    [languages.en.params]
+      title = "santcodes"
+      keywords = ""
+      copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+      readOtherPosts = "Read other posts"
+
+      subtitle  = "My personal blog site"
+
+    [languages.en.params.logo]
+      logoText = "santacodes"
+      logoHomeLink = "/"
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "categories"
+    name       = "Categories"
+    url        = "/categories"
+

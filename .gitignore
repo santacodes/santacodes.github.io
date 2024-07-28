@@ -1,0 +1,73 @@
+# Hugo
+/public/
+/resources/_gen/
+/assets/js/config.js
+hugo_stats.json
+.hugo_build.lock
+
+# Temporary files and directories
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# OS generated files and directories
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Optional NPM cache directory
+.npm
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/unplugged
+!.yarn/build-state.yml
+!.yarn/install-state.gz
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# MacOS generated files
+*.DS_Store
+
+# Windows generated files
+Thumbs.db
+ehthumbs.db
+
+# Linux generated files
+*~
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+vendor/
+
+# Hugo environment variable file
+.env
+
+# Build and cache directories
+/public/
+.tmp/
+.cache/
+
