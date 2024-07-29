@@ -1,6 +1,6 @@
 +++
 title = 'About'
-date = 2024-05-24T18:59:49+05:30
+date = 2024-05-24T17:29:19+05:30
 draft = false 
 +++
 
@@ -14,9 +14,11 @@ Hello! I'm Santhosh, a passionate and dedicated programmer with a deep interest 
 
 ### My interest lies in:
 
-- Low level programming: Writing C and using Linux makes me happy followed by the guilt of bloating things if I feel something could be more straighforward.
-- Computer vision and deep learning: I love working with neural networks and deep learning algorithms!
-- Scientific computing and research software: Leveraging tools for data analysis, simulations, and model development.
+- Low level programming especially writing C and using Linux makes me happy followed by the guilt of bloating things if I feel something could be more straighforward.
+- Computer vision and deep learning, I love working with neural networks and deep learning algorithms!
+- Scientific computing and research software to Leverage tools for data analysis, simulations, and model development.
+- Automation and writings scripts that could potentionally solve hours of manual work.
+- Embedded systems and hardware programming, the transition between intelligent electric signals to mechanical actions!
 
 I'm constantly exploring new methodologies and technologies to enhance my work and contribute to especially if it's an open-source software.
 
