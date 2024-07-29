@@ -1,6 +1,9 @@
 +++
 title = 'Google Summer of Code Community Bonding - PyBaMM under NumFOCUS'
 date = 2024-05-29T18:59:49+05:30
+categories = ["GSoC", "PyBaMM", "NumFOCUS"]
+tags = ["gsoc"]
+type = ["post", "posts"]
 draft = false 
 +++
 

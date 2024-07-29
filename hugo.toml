@@ -1,7 +1,6 @@
 baseURL      = "localhost"
 title        = "santacodes"
 languageCode = "en-us"
-theme        = "hello-friend-ng"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -44,13 +43,13 @@ disableHugoGeneratorInject = false
   # Subtitle for home
   homeSubtitle = "Santacodes' Blog Site"
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = true
+  disableReadOtherPosts = false
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  enableSharingButtons = false
   
   # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
@@ -84,7 +83,7 @@ disableHugoGeneratorInject = false
   ]
 
 [taxonomies]
-    category = "blog"
+    category = "categories"
     tag      = "tags"
     series   = "series"
 
