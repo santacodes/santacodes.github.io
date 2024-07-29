@@ -121,4 +121,8 @@ justifyContent = true
     identifier = "categories"
     name       = "Categories"
     url        = "/categories"
+  [[menu.main]]
+    identifier = "gsoc"
+    name       = "☀️ Google Summer of Code"
+    url        = "/series/gsoc"
 
